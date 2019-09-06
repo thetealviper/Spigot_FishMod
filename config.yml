@@ -1,0 +1,33 @@
+##########################################################
+#                     FishMod Config                     #
+##########################################################
+
+Items:
+ Example_Item:
+  id: "DIRT:0"
+  name: "&rMud"
+  message: "You fish mud from the water."
+  biomes:
+   - ALL
+  chance: .5
+ Item_Numba_Two:
+  id: "COBBLESTONE:0"
+  amount: 5
+  message: "You fish an odd object from the water."
+  biomes:
+   - "BEACH"
+  chance: .9
+#Here is where configured items go.
+#NOTE: You can add food from FoodLol in here. Just copy
+#paste the item configuration here
+#NOTE: Biomes can be found @
+#https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html
+#and capitals matter. Put "ALL" to include all biomes
+#Chance is to be put in decimal form
+
+##########################################################
+#                        Version                         #
+##########################################################
+
+VERSION: 2
+#Do not touch this. No touchy.

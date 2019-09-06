@@ -1,0 +1,6 @@
+name: "FishMod"
+author: TheTealViper
+version: "1.14.4.a.1"
+api-version: 1.13
+description: "Custom fishies"
+main: me.TheTealViper.fishmod.FishMod
